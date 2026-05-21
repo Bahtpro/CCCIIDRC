@@ -23,7 +23,26 @@ img{
     width:100%;
     display:block;
 }
+.container{
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px){
+  .navbar{
+    flex-direction: column;
+  }
+
+  h1{
+    font-size: 28px;
+  }
+}
 .container{
     width:90%;
     max-width:1200px;
@@ -282,6 +301,7 @@ img{
 
     background:#f4f1eb;
 }
+
 
 /* HERO CARD */
 
